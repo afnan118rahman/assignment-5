@@ -22,20 +22,20 @@
 </head>
 <body class="max-w-[1900px] mx-auto">
     <section>
-        <div class="flex justify-between px-12 py-3">
-            <div class="flex gap-2 ">
+        <div class="flex justify-between mx-auto md:px-12 px-6 py-3">
+            <div class="flex md:gap-2 ">
                 <img class="max-h-[50px] max-w-[50px]" src="assets/logo.png" alt="">
                 <h1 class="text-[#006747] font-bold">Emergency <br> Service </h1>
             </div>
-            <div class="max-w-[440px]  flex gap-[15px]">
-                <div class="bg-[#dfe3eb] rounded-2xl p-3  my-2 min-w-[100px] text-2xl font-bold text-center"><span id="life-point">0</span>
+            <div class="max-w-[440px]  flex md:gap-[15px]">
+                <div class="bg-[#dfe3eb] rounded-2xl p-3  my-2 lg:min-w-[100px] lg:text-2xl font-bold text-center"><span id="life-point">0</span>
                     <i class="fa-solid fa-heart text-red-700"></i>
                 </div>
-                <div class="bg-[#dfe3eb]  min-w-[100px] text-2xl text-center rounded-2xl my-2 font-bold p-3 flex gap-0.5">
+                <div class="bg-[#dfe3eb]  lg:min-w-[100px] lg:text-2xl text-center rounded-2xl my-2 font-bold p-3 flex gap-0.5">
                     <span id="coin">100</span>
                     <img class="max-h-8" src="assets/coin.png" alt="">
                 </div>
-                <div class="bg-[#00A63E] text-white  flex justify-center items-center min-w-[100px] text-2xl text-center  my-2  p-3  rounded-2xl">
+                <div class="bg-[#00A63E] text-white  flex justify-center items-center md:min-w-[100px] md:text-2xl text-center  my-2  p-3  rounded-2xl">
                     <h1><span id="copy-point">0</span> copy</h1>
                 </div>
             </div>
@@ -233,17 +233,17 @@
             
         </div>
 
-        <div class="min-w-[400px] mt-24 px-3" >
+        <div class="md:min-w-[350px] w-[300px] mx-auto mt-24 px-3" >
             <div class="flex justify-between">
             <div>
-                <p><i class="fa-regular fa-clock"></i>Call History</p>
+                <p class="font-bold"><i class="fa-regular fa-clock"></i>Call History</p>
             </div>
             <div>
                <button id="clear" class="btn btn-secondary bg-green-700 text-white border-0 rounded-xl w-[100px] max-h-40 hover:bg-green-800"> Clear</button> 
             </div>
             
         </div>
-        <div id="history-container" class="bg-white w-[400px] h-[1100px] mt-5"></div>
+        <div id="history-container" class=" border-2 border-amber-50 bg-white w-[400px] md:h-[1100px] min-h-[400px] mt-5"></div>
         </div>
     </section>
 
